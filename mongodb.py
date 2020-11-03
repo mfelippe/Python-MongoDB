@@ -6,7 +6,7 @@ import pymongo
 import datetime
 
 client = pymongo.MongoClient(
-    "mongodb+srv://admin:MFelippe1@cluster0.q6oxa.mongodb.net/testdb?retryWrites=true&w=majority")
+    "mongodb+srv://admin:<senhaDoUsuario>@cluster0.q6oxa.mongodb.net/<nomeDoBandoDeDados>?retryWrites=true&w=majority")
 # minha conexao com o db e a coleção
 usuario = client.testdb.usuario
 def cadastrar_user(nome,email,senha):
