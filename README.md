@@ -1,6 +1,6 @@
 # Aplicação em Python utilizando MongoDB
 
-Aplicação em simples em Python de login, cadastro e busca de dados utilizando dados no MongoDB hospedado em nuvem
+Aplicação simples em Python,para login, cadastro e busca de dados, utilizando MongoDB hospedado em nuvem
 
 <h3>função login()</h3>
 
